@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
 :root {
-    --fixed-radius: 50%;
     --heading-color: #66BFBF;
     --top-background-color: #EAF6F6;
     --background-height: 100vh;
@@ -19,14 +18,4 @@ body {
 
 h1, h2 {
     color: var(--heading-color);
-}
-
-.contact {
-    padding-top: 30px;
-    min-height: 30vh;
-    background-color:#d0f9f9;
-}
-
-.foot {
-    min-height: 10vh;
 }

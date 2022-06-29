@@ -1,26 +1,65 @@
-<!DOCTYPE html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="./images/myimage.ico" type="image/x-icon">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+         body{
+                height: 100vh;
+                background-color: #EAF6F6;
+                font-family: "Roboto","san-serif";
+            }
+
+            p {
+                font-size:larger;
+            }
+
+            li {
+                font-size:large;
+            }
+
+            a {
+                text-decoration: none;
+                transition: all 0.2s;
+                transition-timing-function: ease-in-out;
+                color: black;
+                font-size: 30px;
+            }
+
+            a:hover {
+                color: rgb(83, 77, 77);
+            }
+    </style>
 </head>
 <body>
-    <a href="./index.html">Back</a>&nbsp;<a href=""></a>&nbsp;
-    <hr>
-    <br>
-    <h1><u>Contacts:</u></h1>
-    <br><br><br>
-    <h3>Email Address:</h3>
-    <form action="mailto:ssalibenjamin0402@gmail.com">
-        <input type="submit" value="Contact Me">
-    </form>
-    <p>ssalibenjamin0402@gmail.com</p>
-    <hr><br>
-    <h3>Phone Numbers:</h3>
-    <ul type="square">
-        <font>
+    <a href="./index.html">Click to go back</a><br>
+    <div class="container-fluid text-center pt-3">
+        <h1 style="padding-top: 20vh;" ><b>Email me on:</b></h1>
+        <br>
+        <h3>Email 1:</h3>
+        <p>
+            ssalibenjamin0402@gmail.com<br>
+            <form action="mailto:ssalibenjamin0402@gmail.com">
+                <input class="btn btn-primary" type="submit" value="Contact Me">
+            </form>
+        </p>
+        <h3>Email 2:</h3>
+        <p>
+            darwinbenzi@gmail.com<br>
+            <form action="mailto:darwinbenzi@gmail.com">
+                <input class="btn btn-primary" type="submit" value="Contact Me">
+            </form>
+        </p>
+    
+    <h1><b>Phone Numbers:</b><h1>
+    <ul class="text-center ps-3" type="none">
             <li>0751562195 (Airtel)</li>
             <li>0773457817 (MTN)</li>
             <li>0726155595 (Lycamobile)</li>
-        </font>
     </ul><br>
+    </div>
 </body>
 </html> 
