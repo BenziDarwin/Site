@@ -1,33 +1,191 @@
 <!DOCTYPE html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>My Info</title>
+        <title>My Site</title>
         <link rel = "icon" href = "https://cdn-icons.flaticon.com/png/128/4140/premium/4140048.png?token=exp=1655453009~hmac=6cc089aa2e69949328b236c5a4352e55" type = "image/x-icon">
+        <style>
+            #cloud1 {
+                position: absolute;
+                right: 10vw;
+                top: 15vh;
+            }
+
+            #cloud2 {
+                position: absolute;
+                left: 10vh;
+                top: 45vh;
+            }
+
+            #mountain {
+                position: absolute;
+                bottom: 0px;
+            }
+
+            p img {
+                height: 120px;
+                width: auto;
+                border-radius: 50%;
+            }
+
+            p {
+                font-size: 2rem;
+                color: black;
+                font-weight: lighter;
+
+            }
+
+            .title {
+                color: #296666;
+                letter-spacing: 2px;
+            }
+
+            li {
+                color: black;
+                font-size: 30px;
+                font-weight: lighter;
+            }
+        </style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="./myStyles.css">
     </head>
     <body>
-        <h1><b><u>My Info:</u></b></h1>
-        <a href="./Contact.html">Contact me</a>&nbsp;<a href=""></a>&nbsp;<a href="./Hobbies.html">My Hobbies</a>
-        <hr><br>
-        <p>
-            <h2>Picture:</h2>
-            <img src="./images/myimage.jpg" width="200" alt="me">
+        <img id="cloud1" src="./images/img1.png" alt="cloud">
+        <img id="cloud2" src="./images/img1.png" alt="cloud">
+        <div class="container text-center">
+            <img class="d-none d-md-block" id="mountain" src="./images/img2.png" alt="mountain">
+        </div>
+        <div class="container-fluid space text-center">
+            <div class="d-none d-md-block">
+                <h1>Hello, I am Ssali Benjamin...</h1>
+                <br>
+                <h2>I am a programmer!</h2>
+            </div>
+        </div>
+        <div class="container text-center p-3 about">
+            <img class="rounded-circle"  id="profile_pic" src="./images/myimage.jpg" width="200" alt="me">
+            <br>
+            <div class="text-center d-block d-md-none">
+                <h1>Hello, I am Ssali Benjamin...</h1>
+                <br>
+            </div>
+            <h1 class="title">About me<h1>
+                <hr>
             <br><br>
-            <hr>
-            <table border="4" width="50%" height="100%">
-                <thead>
-                    <td>Name:</td>
-                    <td>Ssali Benjamin Tamale</td>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Age:</td>
-                        <td>20</td>
-                    </tr>
-                    <tr>
-                        <td>Course:</td>
-                        <td>Bachelor of Science in Software Engineering</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="container text-center d-none d-md-block">
+                <div class="row">
+                    <p class="text-center col-6 offset-1">
+                        <img class="m-2" src="https://cdn.pixabay.com/photo/2016/02/05/15/34/pasta-1181189__340.jpg" alt="Cooking" align="left">&nbsp; I love cooking, been a cook for years,
+                        have a dream to open up my own restaurant some day.
+                    </p>
+                </div>
+                <br>
+                <div class="row">
+                    <p class="text-center col-6 offset-4">
+                        I also do some programming, I pretty much enjoy doing it <img class="m-2" src="https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854__340.png" alt="Coding" align="right">as a hobby 
+                        and as a career.
+                    </p>
+                </div>
+                <div class="row">
+                    <p class="text-center col-6 offset-1">
+                        <img class="m-2" src="https://cdn.pixabay.com/photo/2015/10/07/22/54/pen-spinning-976930__340.jpg" alt="Watching anime" align="right">I really love watching anime, the scenes are out of this world,
+                        prefer it to serie watching and any other activity that needs watching,... well except from programming tutorials.
+                    </p>
+                </div>
+                <div class="row">
+                    <p class="text-center col-6 offset-4">
+                        I love playing lots of video games, like Dark Souls, Elden Rings, Elder Scrolls, etc... <img class="m-2" src="https://cdn.pixabay.com/photo/2017/05/08/02/22/game-2294201__340.jpg" alt="Gaming" align="right"> The creativity
+                        put behind video games made me do game development with unity.
+                    </p>
+                </div>
+                <h2 class="title">Interests</h2>
+                <p>Here are some of the things I find interesting...</p>
+                <hr>
+                <br>
+                <ul class="text-left">
+                    <li>Gaming</li>
+                    <li>Machine and Deep learning</li>
+                    <li>Solidity</li>
+                    <li>Critical thinking and problem solving</li>
+                    <li>Blockchain and smart contracts</li>
+                    <li>Web development with React</li>
+                    <li>Game development with Unity</li>
+                    <li>Innovation</li>
+                    <li>Etc...</li>
+                </ul>
+                <br><br>
+                <h2 class="title">Skills</h2>
+                <p>Here are some of the things I learnt...</p>
+                <hr>
+                <br>
+                <ul class="text-left">
+                    <li>Smart contract development with Solidity</li>
+                    <li>Unity Game Development</li>
+                    <li>React</li>
+                    <li>Python</li>
+                    <li>Javascript</li>
+                    <li>Leadership</li>
+                </ul>
+            </div>
+            <div class="d-block d-md-none">
+                <p>
+                    <img class="m-2" src="https://cdn.pixabay.com/photo/2016/02/05/15/34/pasta-1181189__340.jpg" alt="Cooking" align="left">&nbsp; I love cooking, been a cook for years,
+                    I have a dream to open up my own restaurant some day.
+                </p>
+                <br><br>
+                <p>
+                    I also do some programming, I pretty much enjoy doing it <img class="m-2" src="https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854__340.png" alt="Coding" align="right">as a hobby 
+                    and as a career.
+                </p>
+                <br><br>
+                <p>
+                    <img class="m-2" src="https://cdn.pixabay.com/photo/2015/10/07/22/54/pen-spinning-976930__340.jpg" alt="Watching anime" align="right">I really love watching anime, the scenes are out of this world,
+                    prefer it to serie watching and any other activity that needs watching,... well except from programming tutorials.
+                </p>
+                <br><br>
+                <p>
+                    I love playing lots of video games, like Dark Souls, Elden Rings, Elder Scrolls, etc... <img class="m-2" src="https://cdn.pixabay.com/photo/2017/05/08/02/22/game-2294201__340.jpg" alt="Gaming" align="right"> The creativity
+                    put behind video games made me do game development with unity.
+                </p>
+                <br><br>
+                <h2 class="title">Interests</h2>
+                <p>Here are some of the things I find interesting...</p>
+                <hr>
+                <br>
+                <ul class="text-left">
+                    <li>Gaming</li>
+                    <li>Machine and Deep learning</li>
+                    <li>Solidity</li>
+                    <li>Critical thinking and problem solving</li>
+                    <li>Blockchain and smart contracts</li>
+                    <li>Web development with React</li>
+                    <li>Game development with Unity</li>
+                    <li>Innovation</li>
+                    <li>Etc...</li>
+                </ul>
+                <h2 class="title">Skills</h2>
+                <p>Here are some of the skills I have...</p>
+                <hr>
+                <br>
+                <ul class="text-left">
+                    <li>Smart contract development with Solidity</li>
+                    <li>Unity Game Development</li>
+                    <li>React</li>
+                    <li>Python</li>
+                    <li>Javascript</li>
+                    <li>Leadership</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid text-center contact">
+            <h1 class="title">Get In Touch</h1>
+            <h4 style="color: #5cb3b3;">You can contact me via my email:</h4>
+            <form action="mailto:ssalibenjamin0402@gmail.com">
+                <input class="btn btn-primary" type="submit" value="Contact"><br>
+                For more contact info, <a href="./Contact.html">Click here.</a>
+            </form>
+        </div>
+        <footer class="foot bg-dark container-fluid text-center">
+            2022 &copy; Ssali Benjamin
+        </footer>
     </body>
 </html>
